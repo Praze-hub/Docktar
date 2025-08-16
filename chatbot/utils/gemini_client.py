@@ -21,6 +21,5 @@ def ask_gemini(prompt: str) -> str:
         return (resp.text or "").strip()
     except Exception as e:
         return f"Sorry I could not generate a response at the moment. Error: {str(e)}"
-        # return "Sorry I could not generate a response at the moment"
     
     
