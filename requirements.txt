@@ -11,7 +11,6 @@ psycopg2
 drf-yasg
 django-cors-headers
 gunicorn
-google-generativeai
-drf_spectacular
+google-genai
 
 
