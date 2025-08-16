@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'drf_yasg',
+    'drf_spectacular',
 ]
 
 MIDDLEWARE = [
@@ -89,6 +90,11 @@ DATABASES = {
         'PORT': env('DATABASES_DEFAULT_PORT'),
     }
 }
+
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+}
+
 
 
 AUTH_PASSWORD_VALIDATORS = [
