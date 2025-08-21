@@ -15,6 +15,24 @@ The chatbot supports **multilingual advice** with translation into local languag
 
 ---
 
+## 🛠️ Tech Stack / Tools
+
+- Backend Framework: Django, Django REST Framework (DRF)
+
+- AI Model: Google Gemini (google-genai SDK)
+
+- API Docs: drf-spectacular (Swagger UI, ReDoc)
+
+- Containerization: Docker, Docker Compose
+
+- Database: PostgreSQL (or SQLite for local dev)
+
+- Environment Management: django-environ
+
+- Language Support: English + Local languages (via translation API)
+
+---
+
 ## 📂 Project Structure
 ```markdown
 Docktar/
@@ -34,3 +52,5 @@ Docktar/
 ├── Dockerfile
 ├── requirements.txt
 ├── README.md
+
+
