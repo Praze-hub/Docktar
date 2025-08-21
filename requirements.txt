@@ -12,5 +12,8 @@ drf-yasg
 django-cors-headers
 gunicorn
 google-genai
+whitenoise
+dj-database-url
+gunicorn
 
 
