@@ -12,7 +12,7 @@ def analyze_symptom(symptom_text: str) -> str:
     {MEDICAL_SYSTEM_PROMPT} 
     User symptoms: "{symptom_text}"
     Return:
-    1) Likely possibilities (non-diagnostic)
+    1) Likely possibilities (diagnostic)
     2) At-home care tips
     3) Red flags (when to go to a clinic/hospital)
     4) Short disclaimer
