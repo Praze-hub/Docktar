@@ -1,11 +1,11 @@
-# 🩺 DOCKTAR
+#  DOCKTAR
 
 A Django REST Framework (DRF) based API that helps users analyze symptoms and get medical advice powered by **Google Gemini (Generative AI)**.  
 The chatbot supports **multilingual advice** with translation into local languages such as Yoruba, Igbo, Hausa, etc.
 
 ---
 
-## 🚀 Features
+##  Features
 - Analyze medical symptoms and provide AI-generated advice.
 - Supports **multilingual translations** of advice.
 - RESTful API endpoints for easy integration.
@@ -15,7 +15,7 @@ The chatbot supports **multilingual advice** with translation into local languag
 
 ---
 
-## 🛠️ Tech Stack / Tools
+##  Tech Stack / Tools
 
 - Backend Framework: Django, Django REST Framework (DRF)
 
@@ -33,7 +33,7 @@ The chatbot supports **multilingual advice** with translation into local languag
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```markdown
 Docktar/
 ├── chatbot/
